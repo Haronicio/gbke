@@ -1,0 +1,218 @@
+;!FILE obj/data.asm
+XL3
+H 9 areas 8A global symbols
+M data
+O -msm83
+S .__.ABS. Def000000
+A _CODE size 79 flags 0 addr 0
+S A$data$256 Def000070
+S A$data$184 Def00004C
+S A$data$166 Def000041
+S A$data$157 Def000038
+S A$data$148 Def00002D
+S A$data$139 Def000027
+S C$data.c$17$1_0$118 Def000025
+S A$data$257 Def000071
+S A$data$194 Def00004D
+S A$data$167 Def000042
+S A$data$158 Def000039
+S A$data$149 Def00002E
+S A$data$258 Def000073
+S A$data$249 Def00006E
+S A$data$168 Def000043
+S A$data$159 Def00003A
+S A$data$268 Def000078
+S A$data$259 Def000075
+S A$data$178 Def00004A
+S A$data$169 Def000044
+S A$data$197 Def00004E
+S A$data$179 Def00004B
+S _is_any_flag_set Def00006D
+S A$data$70 Def000003
+S XG$init_flags$0$0 Def000004
+S A$data$93 Def000007
+S A$data$94 Def000008
+S A$data$67 Def000000
+S A$data$95 Def000009
+S A$data$68 Def000001
+S A$data$96 Def00000A
+S A$data$78 Def000004
+S A$data$69 Def000002
+S XG$is_any_flag_set$0$0 Def000078
+S A$data$97 Def00000B
+S A$data$88 Def000005
+S G$is_flag_set$0$0 Def00004D
+S G$clear_flag$0$0 Def000026
+S A$data$98 Def00000C
+S A$data$89 Def000006
+S A$data$99 Def00000D
+S G$set_flag$0$0 Def000005
+S _is_flag_set Def00004D
+S _clear_flag Def000026
+S _set_flag Def000005
+S XG$is_flag_set$0$0 Def00006C
+S XG$clear_flag$0$0 Def00004C
+S XG$set_flag$0$0 Def000025
+S C$data.c$20$1_0$120 Def000026
+S G$init_flags$0$0 Def000000
+S A$data$100 Def000010
+S C$data.c$21$1_0$120 Def000028
+S A$data$200 Def00004F
+S A$data$110 Def00001A
+S A$data$101 Def000011
+S C$data.c$22$1_0$120 Def00004C
+S A$data$210 Def000053
+S A$data$111 Def00001B
+S C$data.c$10$0_0$116 Def000000
+S A$data$220 Def000060
+S A$data$211 Def000055
+S A$data$112 Def00001C
+S A$data$103 Def000013
+S A$data$221 Def000061
+S A$data$212 Def000057
+S A$data$122 Def000023
+S A$data$113 Def00001D
+S C$data.c$30$1_0$124 Def00006D
+S C$data.c$11$1_0$116 Def000000
+S A$data$222 Def000062
+S A$data$213 Def000058
+S A$data$204 Def000050
+S A$data$150 Def000031
+S A$data$123 Def000024
+S A$data$114 Def00001E
+S A$data$105 Def000014
+S C$data.c$31$1_0$124 Def00006F
+S C$data.c$12$1_0$116 Def000004
+S A$data$223 Def000063
+S A$data$205 Def000051
+S A$data$160 Def00003B
+S A$data$151 Def000032
+S A$data$115 Def00001F
+S A$data$106 Def000015
+S C$data.c$32$1_0$124 Def000078
+S G$is_any_flag_set$0$0 Def00006D
+S C$data.c$25$1_0$122 Def00004D
+S A$data$260 Def000076
+S A$data$224 Def000064
+S A$data$215 Def00005A
+S A$data$170 Def000045
+S A$data$161 Def00003C
+S A$data$143 Def000028
+S A$data$116 Def000020
+S A$data$107 Def000017
+S C$data.c$26$1_0$122 Def000050
+S A$data$225 Def000065
+S A$data$216 Def00005B
+S A$data$207 Def000052
+S A$data$171 Def000046
+S A$data$162 Def00003D
+S A$data$153 Def000034
+S A$data$144 Def000029
+S A$data$117 Def000021
+S A$data$108 Def000018
+S C$data.c$27$1_0$122 Def00006C
+S A$data$226 Def000067
+S A$data$172 Def000047
+S A$data$163 Def00003E
+S A$data$145 Def00002A
+S A$data$118 Def000022
+S A$data$109 Def000019
+S A$data$236 Def00006C
+S A$data$227 Def000069
+S A$data$218 Def00005D
+S A$data$173 Def000048
+S A$data$164 Def00003F
+S A$data$155 Def000035
+S A$data$146 Def00002B
+S A$data$128 Def000025
+S C$data.c$15$1_0$118 Def000005
+S A$data$255 Def00006F
+S A$data$246 Def00006D
+S A$data$228 Def00006A
+S A$data$219 Def00005E
+S A$data$174 Def000049
+S A$data$165 Def000040
+S A$data$156 Def000036
+S A$data$147 Def00002C
+S A$data$138 Def000026
+S C$data.c$16$1_0$118 Def000007
+S _init_flags Def000000
+A _DATA size 3E0 flags 0 addr 0
+S G$task_datas$0_0$0 Def000000
+S _task_datas Def000000
+A _INITIALIZED size 2 flags 0 addr 0
+S _last_data_p Def000000
+S G$last_data_p$0_0$0 Def000000
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 2 flags 0 addr 0
+S Fdata$__xinit_last_data_p$0_0$0 Def000000
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 01 00
+T 00 00 00
+R 00 00 01 00
+T 00 00 00
+R 00 00 02 00
+T 00 00 00
+R 00 00 02 00
+T 00 00 00
+R 00 00 00 00
+T 00 00 00 AF 12 13 12 C9
+R 00 00 00 00
+T 05 00 00
+R 00 00 00 00
+T 05 00 00 D5 47 D1 D5 1A 4F 13 1A 21 01 00 04 18
+R 00 00 00 00
+T 12 00 00 01
+R 00 00 00 00
+T 13 00 00
+R 00 00 00 00
+T 13 00 00 29
+R 00 00 00 00
+T 14 00 00
+R 00 00 00 00
+T 14 00 00 05 20 FC F5 79 B5 4F F1 B4 47 E1 E5 79
+R 00 00 00 00
+T 21 00 00 22 70 33 33 C9
+R 00 00 00 00
+T 26 00 00
+R 00 00 00 00
+T 26 00 00 D5 47 D1 D5 1A 4F 13 1A 21 01 00 04 18
+R 00 00 00 00
+T 33 00 00 01
+R 00 00 00 00
+T 34 00 00
+R 00 00 00 00
+T 34 00 00 29
+R 00 00 00 00
+T 35 00 00
+R 00 00 00 00
+T 35 00 00 05 20 FC F5 7D 2F 5F 7C 2F 57 79 A3 4F
+R 00 00 00 00
+T 42 00 00 F1 A2 47 E1 E5 79 22 70 33 33 C9
+R 00 00 00 00
+T 4D 00 00
+R 00 00 00 00
+T 4D 00 00 6B 62 4F 2A 66 6F 3E 01 06 00 0C 18 03
+R 00 00 00 00
+T 5A 00 00
+R 00 00 00 00
+T 5A 00 00 87 CB 10
+R 00 00 00 00
+T 5D 00 00
+R 00 00 00 00
+T 5D 00 00 0D 20 FA A5 4F 78 A4 B1 D6 01 3E 00 17
+R 00 00 00 00
+T 6A 00 00 EE 01 C9
+R 00 00 00 00
+T 6D 00 00
+R 00 00 00 00
+T 6D 00 00 6B 62 2A B6 D6 01 3E 00 17 EE 01 C9
+R 00 00 00 00
+T 00 00 00
+R 00 00 07 00
+T 00 00 00 E0 03
+R 00 00 07 00 00 03 01 00

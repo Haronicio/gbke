@@ -1,0 +1,80 @@
+;!FILE obj/error.asm
+XL3
+H 9 areas 24 global symbols
+M error
+O -msm83
+S _EMU_profiler_message Ref000000
+S .__.ABS. Def000000
+S _EMU_printf Ref000000
+A _CODE size 32 flags 0 addr 0
+S C$error.c$20$1_0$118 Def000009
+S C$error.c$21$1_0$118 Def00001D
+S C$error.c$12$1_0$118 Def000001
+S C$error.c$13$1_0$118 Def000005
+S A$error$80 Def00000F
+S A$error$71 Def000005
+S A$error$62 Def000000
+S A$error$90 Def000017
+S A$error$72 Def000008
+S A$error$91 Def000018
+S A$error$92 Def00001B
+S A$error$83 Def000010
+S A$error$66 Def000001
+S C$error.c$8$0_0$118 Def000000
+S A$error$76 Def000009
+S A$error$67 Def000004
+S A$error$86 Def000011
+S A$error$77 Def00000B
+S A$error$96 Def00001D
+S A$error$87 Def000012
+S A$error$78 Def00000C
+S A$error$97 Def00001E
+S A$error$88 Def000013
+S A$error$79 Def00000E
+S A$error$98 Def00001F
+S A$error$89 Def000014
+S G$raise_error$0$0 Def000000
+S Ferror$__str_0$0_0$0 Def000020
+S _raise_error Def000000
+A _DATA size 2 flags 0 addr 0
+S Ferror$who_error$0_0$0 Def000000
+S Ferror$error_num$0_0$0 Def000001
+A _INITIALIZED size 2 flags 0 addr 0
+S Ferror$__EMU_PROFILER_INIT$0_0$0 Def000000
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 2 flags 0 addr 0
+S Ferror$__xinit___EMU_PROFILER_INIT$0_0$0 Def000000
+A _CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 01 00
+T 00 00 00
+R 00 00 01 00
+T 01 00 00
+R 00 00 01 00
+T 01 00 00
+R 00 00 01 00
+T 00 00 00
+R 00 00 02 00
+T 00 00 00
+R 00 00 02 00
+T 00 00 00
+R 00 00 00 00
+T 00 00 00 4F 21 00 00 73 21 01 00 71 06 00 50 F8
+R 00 00 00 00 00 05 01 00 00 09 01 00
+T 0D 00 00 02 2A 66 6F E5 C5 D5 11 20 00 D5 CD
+R 00 00 00 00 00 0B 00 00
+T 19 00 00 00 00 E8 08 E1 F1 E9
+R 00 00 00 00 02 03 02 00
+T 20 00 00
+R 00 00 00 00
+T 20 00 00 25 64 20 72 61 69 73 65 64 20 25 64 20
+R 00 00 00 00
+T 2D 00 00 3A 20 25 73 00
+R 00 00 00 00
+T 00 00 00
+R 00 00 07 00
+T 00 00 00 00 00
+R 00 00 07 00 02 03 00 00

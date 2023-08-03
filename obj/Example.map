@@ -1,0 +1,1104 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           itoa
+     00000000  l__BASE                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__CODE_0                       
+     00000000  l__DABS                         
+     00000000  l__EMU_HEADER                   
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__HEAP_END                     
+     00000000  l__HRAM                         
+     00000000  l__LIT                          
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__EMU_HEADER                   
+     00000000  s__EMU_HEADER0                  
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000000  s__HEADER1                      
+     00000000  s__HEADER10                     
+     00000000  s__HEADER11                     
+     00000000  s__HEADER2                      
+     00000000  s__HEADER3                      
+     00000000  s__HEADER4                      
+     00000000  s__HEADER5                      
+     00000000  s__HEADER6                      
+     00000000  s__HEADER7                      
+     00000000  s__HEADER8                      
+     00000000  s__HEADER9                      
+     00000000  s__HEADERa                      
+     00000000  s__HEADERb                      
+     00000000  s__HEADERc                      
+     00000000  s__HEADERd                      
+     00000000  s__HEADERe                      
+     00000000  s__HEADERf                      
+     00000000  s__HRAM                         
+     00000000  s__HRAM12                       
+     00000001  l__GSFINAL                      
+     00000001  l__HEADER0                      
+     00000001  l__HEADER11                     
+     00000001  l__HEADER9                      
+     00000001  l__HEADERa                      
+     00000001  l__HEADERb                      
+     00000001  l__HEADERd                      
+     00000001  l__HEADERe                      
+     00000002  l__HEADER5                      
+     00000002  l__HEADERc                      
+     00000002  l__HEADERf                      
+     00000003  l__EMU_HEADER0                  
+     00000003  l__HEADER8                      
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000003  l__HRAM12                       
+     00000005  l__HEADER1                      
+     00000006  l__HEADER7                      
+     00000007  l__HEADER2                      
+     00000008  l__HEADER3                      
+     0000000C  l__GSINIT                       
+     0000000F  l__INITIALIZED                  
+     0000000F  l__INITIALIZER                  
+     00000030  l__HEADER6                      
+     0000004C  l__HEADER4                      
+     00000084  l__HEADER10                     
+     000001D7  l__HOME                         
+     00000200  s__CODE                         
+     00000555  l__DATA                         
+     0000071B  l__CODE                         
+     0000091B  s__HOME                         
+     00000AF2  s__BASE                         
+     00000AF2  s__CODE_0                       
+     00000AF2  s__INITIALIZER                  
+     00000AF2  s__LIT                          
+     00000B01  s__GSINIT                       
+     00000B0D  s__GSFINAL                      
+     0000C000  _shadow_OAM                     
+     0000C0A0  s__DATA                         
+     0000C5F5  s__BSS                          
+     0000C5F5  s__INITIALIZED                  
+     0000C604  s__HEAP                         
+     0000C604  s__HEAP_END                     
+     0000E000  .STACK                          
+     0000FF80  .refresh_OAM                    
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000200  A$data$67                          data
+     00000200  C$data.c$10$0_0$116                data
+     00000200  C$data.c$11$1_0$116                data
+     00000200  G$init_flags$0$0                   data
+     00000200  _init_flags                        data
+     00000201  A$data$68                          data
+     00000202  A$data$69                          data
+     00000203  A$data$70                          data
+     00000204  A$data$78                          data
+     00000204  C$data.c$12$1_0$116                data
+     00000204  XG$init_flags$0$0                  data
+     00000205  A$data$88                          data
+     00000205  C$data.c$15$1_0$118                data
+     00000205  G$set_flag$0$0                     data
+     00000205  _set_flag                          data
+     00000206  A$data$89                          data
+     00000207  A$data$93                          data
+     00000207  C$data.c$16$1_0$118                data
+     00000208  A$data$94                          data
+     00000209  A$data$95                          data
+     0000020A  A$data$96                          data
+     0000020B  A$data$97                          data
+     0000020C  A$data$98                          data
+     0000020D  A$data$99                          data
+     00000210  A$data$100                         data
+     00000211  A$data$101                         data
+     00000213  A$data$103                         data
+     00000214  A$data$105                         data
+     00000215  A$data$106                         data
+     00000217  A$data$107                         data
+     00000218  A$data$108                         data
+     00000219  A$data$109                         data
+     0000021A  A$data$110                         data
+     0000021B  A$data$111                         data
+     0000021C  A$data$112                         data
+     0000021D  A$data$113                         data
+     0000021E  A$data$114                         data
+     0000021F  A$data$115                         data
+     00000220  A$data$116                         data
+     00000221  A$data$117                         data
+     00000222  A$data$118                         data
+     00000223  A$data$122                         data
+     00000224  A$data$123                         data
+     00000225  A$data$128                         data
+     00000225  C$data.c$17$1_0$118                data
+     00000225  XG$set_flag$0$0                    data
+     00000226  A$data$138                         data
+     00000226  C$data.c$20$1_0$120                data
+     00000226  G$clear_flag$0$0                   data
+     00000226  _clear_flag                        data
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000227  A$data$139                         data
+     00000228  A$data$143                         data
+     00000228  C$data.c$21$1_0$120                data
+     00000229  A$data$144                         data
+     0000022A  A$data$145                         data
+     0000022B  A$data$146                         data
+     0000022C  A$data$147                         data
+     0000022D  A$data$148                         data
+     0000022E  A$data$149                         data
+     00000231  A$data$150                         data
+     00000232  A$data$151                         data
+     00000234  A$data$153                         data
+     00000235  A$data$155                         data
+     00000236  A$data$156                         data
+     00000238  A$data$157                         data
+     00000239  A$data$158                         data
+     0000023A  A$data$159                         data
+     0000023B  A$data$160                         data
+     0000023C  A$data$161                         data
+     0000023D  A$data$162                         data
+     0000023E  A$data$163                         data
+     0000023F  A$data$164                         data
+     00000240  A$data$165                         data
+     00000241  A$data$166                         data
+     00000242  A$data$167                         data
+     00000243  A$data$168                         data
+     00000244  A$data$169                         data
+     00000245  A$data$170                         data
+     00000246  A$data$171                         data
+     00000247  A$data$172                         data
+     00000248  A$data$173                         data
+     00000249  A$data$174                         data
+     0000024A  A$data$178                         data
+     0000024B  A$data$179                         data
+     0000024C  A$data$184                         data
+     0000024C  C$data.c$22$1_0$120                data
+     0000024C  XG$clear_flag$0$0                  data
+     0000024D  A$data$194                         data
+     0000024D  C$data.c$25$1_0$122                data
+     0000024D  G$is_flag_set$0$0                  data
+     0000024D  _is_flag_set                       data
+     0000024E  A$data$197                         data
+     0000024F  A$data$200                         data
+     00000250  A$data$204                         data
+     00000250  C$data.c$26$1_0$122                data
+     00000251  A$data$205                         data
+     00000252  A$data$207                         data
+     00000253  A$data$210                         data
+     00000255  A$data$211                         data
+     00000257  A$data$212                         data
+     00000258  A$data$213                         data
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000025A  A$data$215                         data
+     0000025B  A$data$216                         data
+     0000025D  A$data$218                         data
+     0000025E  A$data$219                         data
+     00000260  A$data$220                         data
+     00000261  A$data$221                         data
+     00000262  A$data$222                         data
+     00000263  A$data$223                         data
+     00000264  A$data$224                         data
+     00000265  A$data$225                         data
+     00000267  A$data$226                         data
+     00000269  A$data$227                         data
+     0000026A  A$data$228                         data
+     0000026C  A$data$236                         data
+     0000026C  C$data.c$27$1_0$122                data
+     0000026C  XG$is_flag_set$0$0                 data
+     0000026D  A$data$246                         data
+     0000026D  C$data.c$30$1_0$124                data
+     0000026D  G$is_any_flag_set$0$0              data
+     0000026D  _is_any_flag_set                   data
+     0000026E  A$data$249                         data
+     0000026F  A$data$255                         data
+     0000026F  C$data.c$31$1_0$124                data
+     00000270  A$data$256                         data
+     00000271  A$data$257                         data
+     00000273  A$data$258                         data
+     00000275  A$data$259                         data
+     00000276  A$data$260                         data
+     00000278  A$data$268                         data
+     00000278  C$data.c$32$1_0$124                data
+     00000278  XG$is_any_flag_set$0$0             data
+     00000279  A$error$62                         error
+     00000279  C$error.c$8$0_0$118                error
+     00000279  G$raise_error$0$0                  error
+     00000279  _raise_error                       error
+     0000027A  A$error$66                         error
+     0000027A  C$error.c$12$1_0$118               error
+     0000027D  A$error$67                         error
+     0000027E  A$error$71                         error
+     0000027E  C$error.c$13$1_0$118               error
+     00000281  A$error$72                         error
+     00000282  A$error$76                         error
+     00000282  C$error.c$20$1_0$118               error
+     00000284  A$error$77                         error
+     00000285  A$error$78                         error
+     00000287  A$error$79                         error
+     00000288  A$error$80                         error
+     00000289  A$error$83                         error
+     0000028A  A$error$86                         error
+     0000028B  A$error$87                         error
+     0000028C  A$error$88                         error
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000028D  A$error$89                         error
+     00000290  A$error$90                         error
+     00000291  A$error$91                         error
+     00000294  A$error$92                         error
+     00000296  A$error$96                         error
+     00000296  C$error.c$21$1_0$118               error
+     00000297  A$error$97                         error
+     00000298  A$error$98                         error
+     00000299  Ferror$__str_0$0_0$0               error
+     000002AB  A$main$60                          main
+     000002AB  C$main.c$10$0_0$133                main
+     000002AB  G$main$0$0                         main
+     000002AB  _main                              main
+     000002AD  A$main$64                          main
+     000002AD  C$main.c$12$1_0$133                main
+     000002B0  A$main$65                          main
+     000002B1  A$main$66                          main
+     000002B3  A$main$67                          main
+     000002B4  A$main$68                          main
+     000002B7  A$main$72                          main
+     000002B7  C$main.c$19$1_1$134                main
+     000002BA  A$main$73                          main
+     000002BB  A$main$74                          main
+     000002BC  A$main$75                          main
+     000002BD  A$main$76                          main
+     000002BE  A$main$77                          main
+     000002C1  A$main$78                          main
+     000002C2  A$main$82                          main
+     000002C2  C$main.c$21$1_1$134                main
+     000002C3  A$main$83                          main
+     000002C4  A$main$84                          main
+     000002C5  A$main$85                          main
+     000002C7  A$main$89                          main
+     000002C7  C$main.c$22$1_1$134                main
+     000002C8  A$main$90                          main
+     000002CB  A$main$91                          main
+     000002CC  A$main$92                          main
+     000002CE  A$main$93                          main
+     000002D0  A$main$94                          main
+     000002D3  A$main$95                          main
+     000002D4  A$main$100                         main
+     000002D4  C$main.c$23$1_1$134                main
+     000002D7  A$main$101                         main
+     000002D8  A$main$102                         main
+     000002DA  A$main$106                         main
+     000002DA  C$main.c$24$1_1$134                main
+     000002DB  A$main$107                         main
+     000002DE  A$main$108                         main
+     000002DF  A$main$109                         main
+     000002E1  A$main$110                         main
+     000002E3  A$main$111                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000002E6  A$main$112                         main
+     000002E7  A$main$117                         main
+     000002E7  C$main.c$25$1_1$134                main
+     000002EA  A$main$121                         main
+     000002EA  C$main.c$26$1_1$134                main
+     000002ED  A$main$122                         main
+     000002EE  A$main$123                         main
+     000002F0  A$main$127                         main
+     000002F0  C$main.c$27$1_1$134                main
+     000002F3  A$main$128                         main
+     000002F4  A$main$129                         main
+     000002F6  A$main$130                         main
+     000002F8  A$main$131                         main
+     000002FB  A$main$136                         main
+     000002FE  A$main$138                         main
+     00000301  A$main$139                         main
+     00000302  A$main$140                         main
+     00000303  A$main$141                         main
+     00000304  A$main$142                         main
+     00000305  A$main$143                         main
+     00000306  A$main$144                         main
+     00000308  A$main$148                         main
+     00000308  C$main.c$34$3_2$137                main
+     00000309  A$main$149                         main
+     0000030C  A$main$150                         main
+     0000030D  A$main$151                         main
+     0000030E  A$main$152                         main
+     0000030F  A$main$153                         main
+     00000310  A$main$154                         main
+     00000313  A$main$155                         main
+     00000314  A$main$156                         main
+     00000315  A$main$157                         main
+     00000316  A$main$158                         main
+     00000317  A$main$159                         main
+     00000318  A$main$160                         main
+     0000031A  A$main$164                         main
+     0000031A  C$main.c$35$3_2$137                main
+     0000031B  A$main$165                         main
+     0000031E  A$main$166                         main
+     0000031F  A$main$167                         main
+     00000321  A$main$168                         main
+     00000323  A$main$169                         main
+     00000326  A$main$170                         main
+     00000327  A$main$175                         main
+     00000327  C$main.c$32$2_2$136                main
+     0000032A  A$main$176                         main
+     0000032B  A$main$177                         main
+     0000032C  A$main$178                         main
+     0000032D  A$main$179                         main
+     0000032F  A$main$184                         main
+     00000332  A$main$186                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000335  A$main$187                         main
+     00000336  A$main$188                         main
+     00000337  A$main$189                         main
+     00000338  A$main$190                         main
+     00000339  A$main$191                         main
+     0000033A  A$main$192                         main
+     0000033C  A$main$196                         main
+     0000033C  C$main.c$40$3_3$140                main
+     0000033F  A$main$197                         main
+     00000340  A$main$198                         main
+     00000341  A$main$199                         main
+     00000343  A$main$200                         main
+     00000346  A$main$201                         main
+     00000347  A$main$202                         main
+     00000348  A$main$203                         main
+     00000349  A$main$204                         main
+     0000034C  A$main$205                         main
+     0000034D  A$main$206                         main
+     0000034E  A$main$207                         main
+     00000351  A$main$208                         main
+     00000353  A$main$209                         main
+     00000354  A$main$213                         main
+     00000354  C$main.c$41$3_3$140                main
+     00000357  A$main$214                         main
+     00000358  A$main$215                         main
+     00000359  A$main$216                         main
+     0000035A  A$main$217                         main
+     0000035C  A$main$218                         main
+     0000035D  A$main$219                         main
+     00000360  A$main$220                         main
+     00000361  A$main$224                         main
+     00000361  C$main.c$38$2_3$139                main
+     00000364  A$main$225                         main
+     00000365  A$main$226                         main
+     00000366  A$main$227                         main
+     00000367  A$main$228                         main
+     00000369  A$main$233                         main
+     00000369  C$main.c$44$1_3$138                main
+     0000036C  A$main$234                         main
+     0000036D  A$main$235                         main
+     0000036E  A$main$236                         main
+     0000036F  A$main$237                         main
+     00000370  A$main$238                         main
+     00000373  A$main$239                         main
+     00000374  A$main$240                         main
+     00000375  A$main$241                         main
+     00000377  A$main$245                         main
+     00000377  C$main.c$45$1_3$138                main
+     0000037A  A$main$246                         main
+     0000037B  A$main$247                         main
+     0000037D  A$main$248                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000037F  A$main$249                         main
+     00000382  A$main$254                         main
+     00000382  C$main.c$47$1_3$138                main
+     00000385  A$main$255                         main
+     00000386  A$main$259                         main
+     00000386  C$main.c$48$1_3$138                main
+     00000389  A$main$260                         main
+     0000038A  A$main$261                         main
+     0000038B  A$main$262                         main
+     0000038C  A$main$263                         main
+     0000038D  A$main$264                         main
+     00000390  A$main$265                         main
+     00000391  A$main$266                         main
+     00000392  A$main$267                         main
+     00000394  A$main$271                         main
+     00000394  C$main.c$49$1_3$138                main
+     00000397  A$main$272                         main
+     00000398  A$main$273                         main
+     0000039A  A$main$274                         main
+     0000039C  A$main$275                         main
+     0000039F  A$main$280                         main
+     0000039F  C$main.c$50$1_3$138                main
+     000003A2  A$main$281                         main
+     000003A3  A$main$285                         main
+     000003A3  C$main.c$52$1_3$138                main
+     000003A6  A$main$286                         main
+     000003A8  A$main$287                         main
+     000003A9  A$main$291                         main
+     000003A9  C$main.c$53$1_3$138                main
+     000003AB  A$main$292                         main
+     000003AC  A$main$293                         main
+     000003AD  A$main$294                         main
+     000003AE  A$main$295                         main
+     000003AF  A$main$296                         main
+     000003B2  A$main$300                         main
+     000003B2  C$main.c$54$1_3$138                main
+     000003B5  A$main$301                         main
+     000003B7  A$main$302                         main
+     000003B9  A$main$306                         main
+     000003B9  C$main.c$55$1_3$138                main
+     000003BC  A$main$307                         main
+     000003BD  A$main$308                         main
+     000003BF  A$main$309                         main
+     000003C1  A$main$310                         main
+     000003C4  A$main$315                         main
+     000003C7  A$main$317                         main
+     000003CA  A$main$318                         main
+     000003CB  A$main$319                         main
+     000003CC  A$main$320                         main
+     000003CD  A$main$321                         main
+     000003CE  A$main$322                         main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000003CF  A$main$323                         main
+     000003D1  A$main$327                         main
+     000003D1  C$main.c$59$3_3$142                main
+     000003D2  A$main$328                         main
+     000003D3  A$main$329                         main
+     000003D4  A$main$330                         main
+     000003D7  A$main$331                         main
+     000003D8  A$main$335                         main
+     000003D8  C$main.c$57$2_3$141                main
+     000003DB  A$main$336                         main
+     000003DC  A$main$337                         main
+     000003DD  A$main$338                         main
+     000003DE  A$main$339                         main
+     000003E0  A$main$347                         main
+     000003E0  C$main.c$64$1_3$138                main
+     000003E0  C$main.c$70$2_3$143                main
+     000003E3  A$main$348                         main
+     000003E5  A$main$352                         main
+     000003E7  A$main$357                         main
+     000003E7  C$main.c$72$1_3$133                main
+     000003E7  XG$main$0$0                        main
+     000003E8  Fmain$__str_0$0_0$0                main
+     000003F6  Fmain$__str_1$0_0$0                main
+     000003FE  Fmain$__str_2$0_0$0                main
+     0000040C  Fmain$__str_3$0_0$0                main
+     0000041B  Fmain$__str_4$0_0$0                main
+     0000042B  Fmain$__str_5$0_0$0                main
+     00000438  Fmain$__str_6$0_0$0                main
+     00000447  Fmain$__str_7$0_0$0                main
+     00000458  Fmain$__str_8$0_0$0                main
+     0000046A  A$task$78                          task
+     0000046A  C$task.c$13$0_0$131                task
+     0000046A  G$create_task$0$0                  task
+     0000046A  _create_task                       task
+     0000046C  A$task$79                          task
+     0000046E  A$task$80                          task
+     0000046F  A$task$81                          task
+     00000470  A$task$85                          task
+     00000470  C$task.c$24$1_0$131                task
+     00000473  A$task$86                          task
+     00000474  A$task$87                          task
+     00000476  A$task$88                          task
+     00000477  A$task$89                          task
+     00000478  A$task$90                          task
+     00000479  A$task$91                          task
+     0000047A  A$task$92                          task
+     0000047B  A$task$93                          task
+     0000047C  A$task$94                          task
+     0000047F  A$task$95                          task
+     00000480  A$task$96                          task
+     00000481  A$task$97                          task
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000482  A$task$98                          task
+     00000483  A$task$99                          task
+     00000484  A$task$100                         task
+     00000485  A$task$104                         task
+     00000485  C$task.c$26$1_0$131                task
+     00000487  A$task$105                         task
+     00000488  A$task$106                         task
+     00000489  A$task$107                         task
+     0000048C  A$task$108                         task
+     0000048D  A$task$109                         task
+     0000048E  A$task$110                         task
+     0000048F  A$task$111                         task
+     00000490  A$task$112                         task
+     00000491  A$task$113                         task
+     00000492  A$task$114                         task
+     00000494  A$task$118                         task
+     00000494  C$task.c$28$2_0$132                task
+     00000497  A$task$119                         task
+     00000498  A$task$120                         task
+     0000049A  A$task$121                         task
+     0000049C  A$task$122                         task
+     0000049F  A$task$126                         task
+     0000049F  C$task.c$29$2_0$132                task
+     000004A2  A$task$127                         task
+     000004A4  A$task$132                         task
+     000004A4  C$task.c$32$1_0$131                task
+     000004A5  A$task$133                         task
+     000004A6  A$task$134                         task
+     000004A7  A$task$135                         task
+     000004A8  A$task$136                         task
+     000004A9  A$task$137                         task
+     000004AA  A$task$138                         task
+     000004AC  A$task$142                         task
+     000004AC  C$task.c$34$2_0$133                task
+     000004AF  A$task$143                         task
+     000004B0  A$task$144                         task
+     000004B2  A$task$145                         task
+     000004B4  A$task$146                         task
+     000004B7  A$task$150                         task
+     000004B7  C$task.c$35$2_0$133                task
+     000004BA  A$task$151                         task
+     000004BC  A$task$156                         task
+     000004BC  C$task.c$38$1_0$131                task
+     000004BD  A$task$157                         task
+     000004BE  A$task$158                         task
+     000004C1  A$task$159                         task
+     000004C2  A$task$160                         task
+     000004C3  A$task$161                         task
+     000004C4  A$task$162                         task
+     000004C6  A$task$163                         task
+     000004C7  A$task$164                         task
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000004C8  A$task$168                         task
+     000004C8  C$task.c$39$1_0$131                task
+     000004C9  A$task$169                         task
+     000004CA  A$task$170                         task
+     000004CD  A$task$171                         task
+     000004CE  A$task$172                         task
+     000004CF  A$task$173                         task
+     000004D0  A$task$174                         task
+     000004D3  A$task$175                         task
+     000004D4  A$task$179                         task
+     000004D4  C$task.c$40$1_0$131                task
+     000004D5  A$task$180                         task
+     000004D6  A$task$181                         task
+     000004D9  A$task$182                         task
+     000004DA  A$task$183                         task
+     000004DB  A$task$184                         task
+     000004DC  A$task$185                         task
+     000004DE  A$task$186                         task
+     000004DF  A$task$187                         task
+     000004E0  A$task$191                         task
+     000004E0  C$task.c$41$1_0$131                task
+     000004E1  A$task$192                         task
+     000004E2  A$task$193                         task
+     000004E4  A$task$194                         task
+     000004E5  A$task$195                         task
+     000004E6  A$task$196                         task
+     000004E7  A$task$200                         task
+     000004E7  C$task.c$42$1_0$131                task
+     000004E8  A$task$201                         task
+     000004E9  A$task$202                         task
+     000004EA  A$task$203                         task
+     000004EB  A$task$204                         task
+     000004EC  A$task$205                         task
+     000004ED  A$task$206                         task
+     000004EE  A$task$207                         task
+     000004EF  A$task$208                         task
+     000004F0  A$task$209                         task
+     000004F1  A$task$210                         task
+     000004F2  A$task$214                         task
+     000004F2  C$task.c$44$1_0$131                task
+     000004F5  A$task$215                         task
+     000004F6  A$task$219                         task
+     000004F6  C$task.c$46$1_0$131                task
+     000004F7  A$task$220                         task
+     000004F8  A$task$225                         task
+     000004F8  C$task.c$47$1_0$131                task
+     000004FA  A$task$226                         task
+     000004FB  A$task$227                         task
+     000004FD  A$task$228                         task
+     000004FE  Ftask$__str_0$0_0$0                task
+     00000511  Ftask$__str_1$0_0$0                task
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    0000071B =        1819. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000527  A$task$249                         task
+     00000527  C$task.c$49$1_0$135                task
+     00000527  C$task.c$51$1_0$135                task
+     00000527  G$destroy_task$0$0                 task
+     00000527  _destroy_task                      task
+     0000052A  A$task$250                         task
+     0000052B  A$task$251                         task
+     0000052C  A$task$252                         task
+     0000052E  A$task$253                         task
+     0000052F  A$task$254                         task
+     00000530  A$task$255                         task
+     00000531  A$task$256                         task
+     00000533  A$task$260                         task
+     00000533  C$task.c$53$2_0$136                task
+     00000536  A$task$261                         task
+     00000539  A$task$262                         task
+     0000053A  A$task$263                         task
+     0000053B  A$task$264                         task
+     0000053C  A$task$265                         task
+     0000053F  A$task$266                         task
+     00000540  A$task$267                         task
+     00000541  A$task$268                         task
+     00000542  A$task$269                         task
+     00000544  A$task$270                         task
+     00000547  A$task$274                         task
+     00000547  C$task.c$54$2_0$136                task
+     00000548  A$task$279                         task
+     00000548  C$task.c$59$1_1$137                task
+     0000054B  A$task$280                         task
+     0000054C  A$task$281                         task
+     0000054F  A$task$282                         task
+     00000550  A$task$283                         task
+     00000551  A$task$284                         task
+     00000554  A$task$285                         task
+     00000556  A$task$289                         task
+     00000556  C$task.c$65$1_1$137                task
+     00000559  A$task$290                         task
+     0000055A  A$task$298                         task
+     0000055A  C$task.c$66$1_1$135                task
+     0000055A  XG$destroy_task$0$0                task
+     0000055B  Ftask$__str_2$0_0$0                task
+     000005AB  ___printf                          sprintf
+     000008FA  _sprintf                           sprintf
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000020  .call_hl                           Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER1                            00000000    00000005 =           5. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000028  .MemsetSmall                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER2                            00000000    00000007 =           7. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000030  .MemcpySmall                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER3                            00000000    00000008 =           8. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER4                            00000000    0000004C =          76. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000080  .int                               Runtime
+     0000008F  _wait_int_handler                  Runtime
+     0000009C  __standard_VBL_handler             Runtime
+     000000AC  _refresh_OAM                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER5                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER6                            00000000    00000030 =          48. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER7                            00000000    00000006 =           6. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER8                            00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER9                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERa                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERb                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERc                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERd                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERe                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERf                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER10                           00000000    00000084 =         132. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000150  .reset                             Runtime
+     00000150  _reset                             Runtime
+     00000157  .code_start                        Runtime
+     000001B9  _exit                              Runtime
+     000001BD  _set_interrupts                    Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER11                           00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HOME                               0000091B    000001D7 =         471. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000091B  .memset_simple                     Runtime
+     00000924  .memcpy_simple                     Runtime
+     00000941  .remove_VBL                        Runtime
+     00000944  .remove_int                        Runtime
+     00000961  .add_VBL                           Runtime
+     00000964  .add_int                           Runtime
+     0000096F  .wait_vbl_done                     Runtime
+     0000096F  _wait_vbl_done                     Runtime
+     0000097F  .display_off                       Runtime
+     0000097F  _display_off                       Runtime
+     00000997  _remove_VBL                        Runtime
+     000009A2  _add_VBL                           Runtime
+     000009AD  _EMU_profiler_message              EMU_debug
+     000009F5  ___sdcc_call_hl                    call_hl
+     000009F6  _memset                            memset
+     00000A29  _EMU_printf                        EMU_debug
+     00000A4C  _uitoa                             itoa
+     00000A5B  _itoa                              itoa
+     00000A6A  .itoa                              itoa
+     00000A7E  .utoa                              itoa
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        00000AF2    0000000F =          15. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000AF2  Fdata$__xinit_last_data_p$0_0$0    data
+     00000AF4  Ferror$__xinit___EMU_PROFILER_IN   error
+     00000AF6  Fmain$__xinit___EMU_PROFILER_INI   main
+     00000AF8  Ftask$__xinit___EMU_PROFILER_INI   task
+     00000AFA  Ftask$__xinit_current_task_p$0_0   task
+     00000AFC  Ftask$__xinit_first_task_p$0_0$0   task
+     00000AFE  Ftask$__xinit_last_task_p$0_0$0    task
+     00000B00  Ftask$__xinit_task_number$0_0$0    task
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             00000B01    0000000C =          12. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000B01  gsinit                             Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            00000B0D    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C0A0    00000555 =        1365. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C0A0  __cpu                              Runtime
+     0000C0A1  __is_GBA                           Runtime
+     0000C0A2  .mode                              Runtime
+     0000C0A3  .sys_time                          Runtime
+     0000C0A3  _sys_time                          Runtime
+     0000C0A5  .int_0x40                          Runtime
+     0000C0B1  G$task_datas$0_0$0                 data
+     0000C0B1  _task_datas                        data
+     0000C491  Ferror$who_error$0_0$0             error
+     0000C492  Ferror$error_num$0_0$0             error
+     0000C493  G$tasks$0_0$0                      task
+     0000C493  _tasks                             task
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZED                        0000C5F5    0000000F =          15. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C5F5  G$last_data_p$0_0$0                data
+     0000C5F5  _last_data_p                       data
+     0000C5F7  Ferror$__EMU_PROFILER_INIT$0_0$0   error
+     0000C5F9  Fmain$__EMU_PROFILER_INIT$0_0$0    main
+     0000C5FB  Ftask$__EMU_PROFILER_INIT$0_0$0    task
+     0000C5FD  G$current_task_p$0_0$0             task
+     0000C5FD  _current_task_p                    task
+     0000C5FF  G$first_task_p$0_0$0               task
+     0000C5FF  _first_task_p                      task
+     0000C601  G$last_task_p$0_0$0                task
+     0000C601  _last_task_p                       task
+     0000C603  G$task_number$0_0$0                task
+     0000C603  _task_number                       task
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HRAM12                             00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FF90  __current_bank                     Runtime
+     0000FF92  __shadow_OAM_base                  Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_EMU_HEADER0                        00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+
+Files Linked                              [ module(s) ]
+
+C:\Users\haron\Documents\gameboy\gbdk\lib/gb/crt0.o
+                                          [ Runtime ]
+obj/data.o                                [ data ]
+obj/error.o                               [ error ]
+obj/main.o                                [ main ]
+obj/task.o                                [ task ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Users\haron\Documents\gameboy\gbdk\lib/gb/gb.lib
+                                          [ emu_debug.o ]
+C:\Users\haron\Documents\gameboy\gbdk\lib/sm83/sm83.lib
+                                          [ sprintf.o ]
+C:\Users\haron\Documents\gameboy\gbdk\lib/sm83/sm83.lib
+                                          [ __sdcc_call_hl.o ]
+C:\Users\haron\Documents\gameboy\gbdk\lib/sm83/sm83.lib
+                                          [ _memset.o ]
+C:\Users\haron\Documents\gameboy\gbdk\lib/gb/gb.lib
+                                          [ emu_debug_printf.o ]
+C:\Users\haron\Documents\gameboy\gbdk\lib/sm83/sm83.lib
+                                          [ itoa.o ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+
+User Base Address Definitions
+
+_DATA=0xC0A0
+_CODE=0x0200
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+
+User Global Definitions
+
+_shadow_OAM=0xC000
+.STACK=0xE000
+.refresh_OAM=0xFF80
+
+

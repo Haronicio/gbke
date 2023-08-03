@@ -1,0 +1,233 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 1
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+  0 A$task$100                                                     00001A GR
+  0 A$task$104                                                     00001B GR
+  0 A$task$105                                                     00001D GR
+  0 A$task$106                                                     00001E GR
+  0 A$task$107                                                     00001F GR
+  0 A$task$108                                                     000022 GR
+  0 A$task$109                                                     000023 GR
+  0 A$task$110                                                     000024 GR
+  0 A$task$111                                                     000025 GR
+  0 A$task$112                                                     000026 GR
+  0 A$task$113                                                     000027 GR
+  0 A$task$114                                                     000028 GR
+  0 A$task$118                                                     00002A GR
+  0 A$task$119                                                     00002D GR
+  0 A$task$120                                                     00002E GR
+  0 A$task$121                                                     000030 GR
+  0 A$task$122                                                     000032 GR
+  0 A$task$126                                                     000035 GR
+  0 A$task$127                                                     000038 GR
+  0 A$task$132                                                     00003A GR
+  0 A$task$133                                                     00003B GR
+  0 A$task$134                                                     00003C GR
+  0 A$task$135                                                     00003D GR
+  0 A$task$136                                                     00003E GR
+  0 A$task$137                                                     00003F GR
+  0 A$task$138                                                     000040 GR
+  0 A$task$142                                                     000042 GR
+  0 A$task$143                                                     000045 GR
+  0 A$task$144                                                     000046 GR
+  0 A$task$145                                                     000048 GR
+  0 A$task$146                                                     00004A GR
+  0 A$task$150                                                     00004D GR
+  0 A$task$151                                                     000050 GR
+  0 A$task$156                                                     000052 GR
+  0 A$task$157                                                     000053 GR
+  0 A$task$158                                                     000054 GR
+  0 A$task$159                                                     000057 GR
+  0 A$task$160                                                     000058 GR
+  0 A$task$161                                                     000059 GR
+  0 A$task$162                                                     00005A GR
+  0 A$task$163                                                     00005C GR
+  0 A$task$164                                                     00005D GR
+  0 A$task$168                                                     00005E GR
+  0 A$task$169                                                     00005F GR
+  0 A$task$170                                                     000060 GR
+  0 A$task$171                                                     000063 GR
+  0 A$task$172                                                     000064 GR
+  0 A$task$173                                                     000065 GR
+  0 A$task$174                                                     000066 GR
+  0 A$task$175                                                     000069 GR
+  0 A$task$179                                                     00006A GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 2
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  0 A$task$180                                                     00006B GR
+  0 A$task$181                                                     00006C GR
+  0 A$task$182                                                     00006F GR
+  0 A$task$183                                                     000070 GR
+  0 A$task$184                                                     000071 GR
+  0 A$task$185                                                     000072 GR
+  0 A$task$186                                                     000074 GR
+  0 A$task$187                                                     000075 GR
+  0 A$task$191                                                     000076 GR
+  0 A$task$192                                                     000077 GR
+  0 A$task$193                                                     000078 GR
+  0 A$task$194                                                     00007A GR
+  0 A$task$195                                                     00007B GR
+  0 A$task$196                                                     00007C GR
+  0 A$task$200                                                     00007D GR
+  0 A$task$201                                                     00007E GR
+  0 A$task$202                                                     00007F GR
+  0 A$task$203                                                     000080 GR
+  0 A$task$204                                                     000081 GR
+  0 A$task$205                                                     000082 GR
+  0 A$task$206                                                     000083 GR
+  0 A$task$207                                                     000084 GR
+  0 A$task$208                                                     000085 GR
+  0 A$task$209                                                     000086 GR
+  0 A$task$210                                                     000087 GR
+  0 A$task$214                                                     000088 GR
+  0 A$task$215                                                     00008B GR
+  0 A$task$219                                                     00008C GR
+  0 A$task$220                                                     00008D GR
+  0 A$task$225                                                     00008E GR
+  0 A$task$226                                                     000090 GR
+  0 A$task$227                                                     000091 GR
+  0 A$task$228                                                     000093 GR
+  0 A$task$249                                                     0000BD GR
+  0 A$task$250                                                     0000C0 GR
+  0 A$task$251                                                     0000C1 GR
+  0 A$task$252                                                     0000C2 GR
+  0 A$task$253                                                     0000C4 GR
+  0 A$task$254                                                     0000C5 GR
+  0 A$task$255                                                     0000C6 GR
+  0 A$task$256                                                     0000C7 GR
+  0 A$task$260                                                     0000C9 GR
+  0 A$task$261                                                     0000CC GR
+  0 A$task$262                                                     0000CF GR
+  0 A$task$263                                                     0000D0 GR
+  0 A$task$264                                                     0000D1 GR
+  0 A$task$265                                                     0000D2 GR
+  0 A$task$266                                                     0000D5 GR
+  0 A$task$267                                                     0000D6 GR
+  0 A$task$268                                                     0000D7 GR
+  0 A$task$269                                                     0000D8 GR
+  0 A$task$270                                                     0000DA GR
+  0 A$task$274                                                     0000DD GR
+  0 A$task$279                                                     0000DE GR
+  0 A$task$280                                                     0000E1 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 3
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  0 A$task$281                                                     0000E2 GR
+  0 A$task$282                                                     0000E5 GR
+  0 A$task$283                                                     0000E6 GR
+  0 A$task$284                                                     0000E7 GR
+  0 A$task$285                                                     0000EA GR
+  0 A$task$289                                                     0000EC GR
+  0 A$task$290                                                     0000EF GR
+  0 A$task$298                                                     0000F0 GR
+  0 A$task$78                                                      000000 GR
+  0 A$task$79                                                      000002 GR
+  0 A$task$80                                                      000004 GR
+  0 A$task$81                                                      000005 GR
+  0 A$task$85                                                      000006 GR
+  0 A$task$86                                                      000009 GR
+  0 A$task$87                                                      00000A GR
+  0 A$task$88                                                      00000C GR
+  0 A$task$89                                                      00000D GR
+  0 A$task$90                                                      00000E GR
+  0 A$task$91                                                      00000F GR
+  0 A$task$92                                                      000010 GR
+  0 A$task$93                                                      000011 GR
+  0 A$task$94                                                      000012 GR
+  0 A$task$95                                                      000015 GR
+  0 A$task$96                                                      000016 GR
+  0 A$task$97                                                      000017 GR
+  0 A$task$98                                                      000018 GR
+  0 A$task$99                                                      000019 GR
+  0 C$task.c$13$0_0$131                                         =  000000 GR
+  0 C$task.c$24$1_0$131                                         =  000006 GR
+  0 C$task.c$26$1_0$131                                         =  00001B GR
+  0 C$task.c$28$2_0$132                                         =  00002A GR
+  0 C$task.c$29$2_0$132                                         =  000035 GR
+  0 C$task.c$32$1_0$131                                         =  00003A GR
+  0 C$task.c$34$2_0$133                                         =  000042 GR
+  0 C$task.c$35$2_0$133                                         =  00004D GR
+  0 C$task.c$38$1_0$131                                         =  000052 GR
+  0 C$task.c$39$1_0$131                                         =  00005E GR
+  0 C$task.c$40$1_0$131                                         =  00006A GR
+  0 C$task.c$41$1_0$131                                         =  000076 GR
+  0 C$task.c$42$1_0$131                                         =  00007D GR
+  0 C$task.c$44$1_0$131                                         =  000088 GR
+  0 C$task.c$46$1_0$131                                         =  00008C GR
+  0 C$task.c$47$1_0$131                                         =  00008E GR
+  0 C$task.c$49$1_0$135                                         =  0000BD GR
+  0 C$task.c$51$1_0$135                                         =  0000BD GR
+  0 C$task.c$53$2_0$136                                         =  0000C9 GR
+  0 C$task.c$54$2_0$136                                         =  0000DD GR
+  0 C$task.c$59$1_1$137                                         =  0000DE GR
+  0 C$task.c$65$1_1$137                                         =  0000EC GR
+  0 C$task.c$66$1_1$135                                         =  0000F0 GR
+  2 Ftask$__EMU_PROFILER_INIT$0_0$0                             =  000000 GR
+  0 Ftask$__str_0$0_0$0                                         =  000094 GR
+  0 Ftask$__str_1$0_0$0                                         =  0000A7 GR
+  0 Ftask$__str_2$0_0$0                                         =  0000F1 GR
+  7 Ftask$__xinit___EMU_PROFILER_INIT$0_0$0                     =  000000 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 4
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  7 Ftask$__xinit_current_task_p$0_0$0                          =  000002 GR
+  7 Ftask$__xinit_first_task_p$0_0$0                            =  000004 GR
+  7 Ftask$__xinit_last_task_p$0_0$0                             =  000006 GR
+  7 Ftask$__xinit_task_number$0_0$0                             =  000008 GR
+  0 G$create_task$0$0                                           =  000000 GR
+  2 G$current_task_p$0_0$0                                      =  000002 GR
+  0 G$destroy_task$0$0                                          =  0000BD GR
+  2 G$first_task_p$0_0$0                                        =  000004 GR
+  2 G$last_task_p$0_0$0                                         =  000006 GR
+  2 G$task_number$0_0$0                                         =  000008 GR
+  1 G$tasks$0_0$0                                               =  000000 GR
+  0 XG$destroy_task$0$0                                         =  0000F0 GR
+    _EMU_profiler_message                                          ****** GX
+  2 ___EMU_PROFILER_INIT                                           000000 R
+  0 ___str_0                                                       000094 R
+  0 ___str_1                                                       0000A7 R
+  0 ___str_2                                                       0000F1 R
+  7 __xinit____EMU_PROFILER_INIT                                   000000 R
+  7 __xinit__current_task_p                                        000002 R
+  7 __xinit__first_task_p                                          000004 R
+  7 __xinit__last_task_p                                           000006 R
+  7 __xinit__task_number                                           000008 R
+  0 _create_task                                                   000000 GR
+  2 _current_task_p                                                000002 GR
+  0 _destroy_task                                                  0000BD GR
+  2 _first_task_p                                                  000004 GR
+  2 _last_task_p                                                   000006 GR
+    _memset                                                        ****** GX
+    _raise_error                                                   ****** GX
+  2 _task_number                                                   000008 GR
+  1 _tasks                                                         000000 GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 5
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size    10A   flags    0
+   1 _DATA                                      size     E0   flags    0
+   2 _INITIALIZED                               size      9   flags    0
+   3 _DABS                                      size      0   flags    8
+   4 _HOME                                      size      0   flags    0
+   5 _GSINIT                                    size      0   flags    0
+   6 _GSFINAL                                   size      0   flags    0
+   7 _INITIALIZER                               size      9   flags    0
+   8 _CABS                                      size      0   flags    8
+
